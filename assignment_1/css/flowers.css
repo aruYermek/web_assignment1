@@ -1,0 +1,31 @@
+.price-page{
+    display: flex;
+ }
+ .price-page>div{
+    border-style: solid;
+    border-width:0.5px ;
+    margin: 40px;
+}
+ .flowers-photo{
+     display: flex;
+     height: 300px;
+     margin: 10px;
+     text-align: center;
+ }
+ .flowers-price{
+     font-size: 20px;
+     margin: 10px;
+     text-align: center;
+ }
+ .flowers-price>p>a{
+     color: black;
+ }
+ .flowers-price>p>a:hover{
+     background-color:  rgb(0, 0, 0);
+     color:  rgb(249, 205, 229);
+ } 
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }

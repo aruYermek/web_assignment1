@@ -1,0 +1,31 @@
+/* navigation container */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 205, 229);
+    color: black;
+    margin-top: 20px;
+}
+.nav{
+    display: flex;
+    margin: 30px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px; 
+}
+.logo{
+    display: flex;
+    margin: 10px;
+    width: 150px; 
+    height: auto; 
+    border-radius: 60%;
+}
+.nav>a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+a:hover{
+    background-color:  rgb(0, 0, 0);
+    color:  rgb(249, 205, 229);
+}

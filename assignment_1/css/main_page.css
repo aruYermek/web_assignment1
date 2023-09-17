@@ -1,0 +1,101 @@
+/* home page */
+.home-page{
+    display: flex;
+    justify-content: space-between;
+}
+.slogan{
+    margin-top: 60px;
+    margin-left: 150px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-right: 520px;
+}
+.home-photo{
+    display: flex;
+    height: 500px;
+    margin: 10px;
+}
+
+
+/* about us page */
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 205, 229);
+}
+.about-us-photo{
+    display: flex;
+    height: 500px;
+    margin: 10px;
+}
+.about-us-content{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+.about-us-content>h1{
+    font-style: italic;
+    text-align: center;
+}
+
+/* price page */
+.price-page-header{
+    text-align: center;
+    margin-top: 60px;
+}
+.price-page{
+   display: flex;
+   justify-content: space-between;
+}
+.price-page>div{
+    border-style: solid;
+    border-width:0.5px ;
+    margin: 40px;
+}
+.flowers-photo{
+    display: flex;
+    height: 300px;
+    margin: 10px;
+}
+.flowers-price{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.flowers-price>p>a{
+    color: black;
+}
+.flowers-price>p>a:hover{
+    background-color:  rgb(0, 0, 0);
+    color:  rgb(249, 205, 229);
+}
+.link-to-more{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.link-to-more>a{
+    color: black;
+}
+.link-to-more>a:hover{
+    background-color:  rgb(0, 0, 0);
+    color:  rgb(249, 205, 229);
+}
+
+/* contact page */
+
+.contact-page{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 205, 229);
+}
+.info{
+    display: flex;
+    padding: 30px;
+    font-size: 24px;
+}
+.info>li{
+    margin: 20px;
+}
+
+
